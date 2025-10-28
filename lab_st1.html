@@ -1,23 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Lab St-1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST-1 Lab Practical</title>
 </head>
 <body>
-<html>
-<form action="submit_php" method="post">
-<p>Git Hub Registration Form</p><br><br>
-<label for="Username">Username:</label>
-<input type="text" id="Username placeholder="your Name"  required><br><br>
-<label for="password">password:</label>
-<input type="password" id="password" placeholder="password" name="password" required><br><br>
-<label for="Text Editor">Text Editor</label>
-<select name="Text Editor" id="Text Editor">
-<option value="VSCODE">VSCODE</option>
-<option value="NOTEPAD">NOTEPAD</option>
-<option value="VS NOTEPAD">VS NOTEPAD</option><br><br>
-<label for="level1">Level1</label>
-<input type="radio" id="level1" name="begin" > 
-</form>
-</html>
+    <fieldset><legend><h1>GitHub Registration Form</h1></legend>
+    
+        <label for="name">Name:</label>
+        <input type="text" name="place" id="name"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <label for="Text Editor">Text Editor:</label>
+        <select name="Text Editor" id="Text Editor">
+            <option value="VSCODE">VSCODE</option>
+            <option value="NOTEPAD">NOTEPAD</option>
+            <option value="VS NOTEPAD">VS NOTEPAD</option><br>
+
+       <br><label for="Level">Level:</label><br>
+        <br><input type="radio" id="" >
+        <label for="Begginer">Begginer</label>
+        <input type="radio" id="Pro" name="Pro" value="Pro">
+        <label for="Pro">Pro</label><br>
+
+       <br><br> <label for="Level">Level</label>
+            <input type="radio"  name="Begginer" id="Begginer" value="Begginer">Begginer
+            <input type="radio"  name="Pro" id="Pro" value="Pro">Pro
+        
+
+        <br><br>
+                <textarea name="Current Address" rows="10" cols="30" placeholder="Address"></textarea>
+                <br><br>
+
+        <input type="button" id="submit" placeholder="submit" value="submit">
+    </fieldset>
 </body>
-
-
+</html>
